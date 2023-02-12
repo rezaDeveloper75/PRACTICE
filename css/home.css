@@ -281,7 +281,9 @@ header nav .nav-left .register-login-btn a{
     height: 410px;
 }
 
+
 /* dragble list */
+
 .card-container .card-container-content .card::before{
     content: "";
     position: absolute;
@@ -294,12 +296,11 @@ header nav .nav-left .register-login-btn a{
 
 .card-container .card-container-content .card{
     position: relative;
-    background: #ffffff;
-    border: 3px solid rgb(23, 90, 95);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     width: 280px;
-    background: #a8e7e7;
-    margin-left: 5px;
+    background: white;
+    margin: 0px 10px;
 }
 
 .card-container .card-container-content .card .card-content{
@@ -406,4 +407,8 @@ header nav .nav-left .register-login-btn a{
 
 .card-container .swiper-button-next , .card-container .swiper-button-prev{
     color: rgb(5, 81, 131);
+}
+
+.card-container .swiper-scrollbar{
+    display: none;
 }
