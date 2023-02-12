@@ -282,13 +282,6 @@ header nav .nav-left .register-login-btn a{
 }
 
 /* dragble list */
-
-.card-container{
-}
-
-.card-container .card-container-content{
-}
-
 .card-container .card-container-content .card::before{
     content: "";
     position: absolute;
@@ -302,7 +295,7 @@ header nav .nav-left .register-login-btn a{
 .card-container .card-container-content .card{
     position: relative;
     background: #ffffff;
-    border: 3px solid #0ef;
+    border: 3px solid rgb(23, 90, 95);
     border-radius: 20px;
     width: 280px;
     background: #a8e7e7;
